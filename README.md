@@ -24,7 +24,8 @@ This project involves the creation of a backend for a store front project using 
 
 ## TO SETUP .env FILE
 
-```POSTGRES_HOST=127.0.0.1
+```
+POSTGRES_HOST=127.0.0.1
 POSTGRES_DB=store_front
 POSTGRES_USER=####
 POSTGRES_PASSWORD=####
@@ -32,7 +33,8 @@ POSTGRES_TEST_DB=store_front_test
 ENV=dev
 BCRYPT_PASSWORD=####
 SALT_ROUNDS=10
-TOKEN_SECRET=####```
+TOKEN_SECRET=####
+```
 
 ## TO SETUP POSTGRES CONNECTION IN SQL terminal
 * CREATE USER '####' WITH PASSWORD 'YOUR_PASSWORD_HERE';
@@ -47,7 +49,8 @@ TOKEN_SECRET=####```
 The application runs on port 0.0.0.0:3000 with database on 5432
 
 ## TO SETUP database.json FILE
-```{
+```
+{
 "dev": {
 "driver": "pg",
 "host": "127.0.0.1",
@@ -62,4 +65,5 @@ The application runs on port 0.0.0.0:3000 with database on 5432
 "user": "####",
 "password": "####"
 }
-}```
+}
+```
