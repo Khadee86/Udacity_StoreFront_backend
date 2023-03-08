@@ -1,4 +1,4 @@
-## STORE FRONT BACKEND PROJECT
+# STORE FRONT BACKEND PROJECT
 This project involves the creation of a backend for a store front project using handlers, migrations, models, postgres, jasmine for testing, express and so on.
 
 ## STARTER CONFIGURATION AND INSTRUCTIONS
